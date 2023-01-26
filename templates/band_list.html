@@ -1,0 +1,25 @@
+{%extends "base.html"%}
+{% block content %}
+<div>
+    <h2>Že ocenjeni bandi</h2>
+</div>
+<div>
+    <table class="display table table-bordered table-sm">
+                <thead class="table-light">
+                    <tr>
+                        <th>Ime banda</th>
+                        <th>DEX ocena banda</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for object in band_objects %}
+                    <tr>
+                        <td>{{object.name}}</td>
+                        <td>{{object.dex_ocena}}</td>
+                    </tr>
+                    {%endfor%}
+                </tbody>
+            </table>
+</div>
+
+{% endblock content %}

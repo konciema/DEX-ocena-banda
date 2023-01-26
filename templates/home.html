@@ -1,0 +1,24 @@
+{%extends "base.html"%}
+{% block content %}
+<div>
+    <h2>Izberi najboljšega izvajalca za dogodek v Novem mestu</h2>
+    <p>Spodnja anketa uporablja metodo DEX in na podlagi rezultatov oceni, ali je vaša varianta dobra. </p>
+    <p>Ocenjuje po lestvici od 1-10, pri čemer je 1 najslabša in 10 najboljša ocena.</p>
+</div>
+
+<div style="margin-top: 10px">
+    <form method="post" action="/dex-results" class="form-control">
+        <div class="form-group">
+            <label for="name">Vnesi ime banda: </label>
+            <div>
+                <input id="name" name="name" type="text" class="from-control">
+            </div>           
+        </div>
+        {%csrf_token%}
+        {{form}}
+        <div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+</div>
+{% endblock content %}

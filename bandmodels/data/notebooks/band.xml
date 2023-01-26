@@ -1,0 +1,1618 @@
+<MODEL>
+  <SCALE>
+    <NAME>Choosing a band</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>1</NAME>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>2</NAME>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>3</NAME>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>4</NAME>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>5</NAME>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>6</NAME>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>7</NAME>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>8</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>9</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>10</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Price</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>more than 2000</NAME>
+      <DESCRIPTION>Price is more than 2000 euros</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>less than 2000</NAME>
+      <DESCRIPTION>Price is less than 2000 euros</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>less than 1500</NAME>
+      <DESCRIPTION>Price is less than 1500 euros</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>less than 1000</NAME>
+      <DESCRIPTION>Price is less than 1000 euros</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Online popularity</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Bad</NAME>
+      <DESCRIPTION>Online popularity is bad</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Okay</NAME>
+      <DESCRIPTION>Online popularity is okay</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Good</NAME>
+      <DESCRIPTION>Online popularity is good</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Best</NAME>
+      <DESCRIPTION>Online popularity is the best</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Music platforms</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Bad</NAME>
+      <DESCRIPTION>Popularity on music platforms is bad</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Okay</NAME>
+      <DESCRIPTION>Popularity on music platforms is okay</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Good</NAME>
+      <DESCRIPTION>Popularity on music platforms is good</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Best</NAME>
+      <DESCRIPTION>Popularity on music platforms is the best</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>YouTube Stats</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Bad popularity on YouTube</NAME>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Okay popularity on YouTube</NAME>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Good popularity on YouTube</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>All Views on Youtube</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>less than 50.000</NAME>
+      <DESCRIPTION>The artist has less than 50.000 all YT views</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>less than 150.000</NAME>
+      <DESCRIPTION>The artist has less than 150.000 all YT views</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>less than 300.000</NAME>
+      <DESCRIPTION>The artist has less than 300.000 all YT views</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>more than 300.000</NAME>
+      <DESCRIPTION>The artist has more than 300.000 all YT views</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Hits on YouTube</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>0 songs with more than 50.000 views on YT</NAME>
+      <DESCRIPTION>The artist has no hit songs.</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>1-4 songs with more than 50.000 views on YT</NAME>
+      <DESCRIPTION>The artist has 1 to 4 hit songs.</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>5 or more songs with more than 50.000 views on YT</NAME>
+      <DESCRIPTION>The artist has 5 or more hit songs.</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Spotify Stats</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Bad popularity on Spotify</NAME>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Okay popularity on Spotify</NAME>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Good popularity on Spotify</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Spotify Monthly Listeners</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>less than 1000</NAME>
+      <DESCRIPTION>The artist has less than 1000 monthly listeners on Spotify</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>less than 2000</NAME>
+      <DESCRIPTION>The artist has less than 2000 monthly listeners on Spotify</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>less than 3500</NAME>
+      <DESCRIPTION>The artist has less than 3500 monthly listeners on Spotify</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>more than 3500</NAME>
+      <DESCRIPTION>The artist has 3500 or more monthly listeners on Spotify</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Most listened song on Spotify</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>less than 50.000 listens</NAME>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>less than 100.000 listens</NAME>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>more than 100.000 listens</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Social networks</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Bad</NAME>
+      <DESCRIPTION>Popularity on social networks is bad</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Okay</NAME>
+      <DESCRIPTION>Popularity on social networks is okay</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Good</NAME>
+      <DESCRIPTION>Popularity on social networks is good</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Best</NAME>
+      <DESCRIPTION>Popularity on social networks is the best.</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Facebook</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>less than 1000</NAME>
+      <DESCRIPTION>Number of followers on Facebook is less than 1000</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>less than 1500</NAME>
+      <DESCRIPTION>Number of followers on Facebook is less than 1500</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>less than 2000</NAME>
+      <DESCRIPTION>Number of followers on Facebook is less than 2000</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Instagram</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>less than 1.500</NAME>
+      <DESCRIPTION>Number of followers on Instagram is less than 1500</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>less than 3.000</NAME>
+      <DESCRIPTION>Number of followers on Instagram is less than 3000</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>more than 3.000</NAME>
+      <DESCRIPTION>Number of followers on Instagram is more than 3000</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Author songs</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Not many authored songs</NAME>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>An okay number of authored songs</NAME>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>A lot authored songs</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Number of Albums or EPs</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>0 albums or EPs</NAME>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>1 album or EP</NAME>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>2 or more albums or EPs</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Number of Single Releases</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>3 or less single releases</NAME>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>5 or less single releases</NAME>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>6 or more single releases</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Concerts</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Bad</NAME>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Okay</NAME>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Good</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Number of Concerts in a year in Slovenia</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>less than 5 concerts</NAME>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>less than 10 concerts</NAME>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>more than 10 concerts</NAME>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Last concert in Novo mesto</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>1 year ago</NAME>
+      <DESCRIPTION>The artist last performed in Novo mesto less than 1 year ago.</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>2 years ago</NAME>
+      <DESCRIPTION>The artist last performed in Novo mesto less than 2 years ago.</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Never</NAME>
+      <DESCRIPTION>The artist never performed in Novo mesto.</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <ATTRIBUTE>
+    <NAME>Choosing a band</NAME>
+    <DESCRIPTION>Choosing the best band to perform on our event in Novo mesto</DESCRIPTION>
+    <SCALE>Choosing a band</SCALE>
+    <FUNCTION>Choosing a band</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Price</NAME>
+    <DESCRIPTION>Price that the band demans for 1 hour and 30 minutes</DESCRIPTION>
+    <PARENT>Choosing a band</PARENT>
+    <SCALE>Price</SCALE>
+    <FUNCTION>Price</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Online popularity</NAME>
+    <DESCRIPTION>How well the band is represented online</DESCRIPTION>
+    <PARENT>Choosing a band</PARENT>
+    <SCALE>Online popularity</SCALE>
+    <FUNCTION>Online popularity</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Music platforms</NAME>
+    <DESCRIPTION>Popularity on music platforms</DESCRIPTION>
+    <PARENT>Online popularity</PARENT>
+    <SCALE>Music platforms</SCALE>
+    <FUNCTION>Music platforms</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>YouTube Stats</NAME>
+    <DESCRIPTION>Number of overall views, most popular releases on YouTube</DESCRIPTION>
+    <PARENT>Music platforms</PARENT>
+    <SCALE>YouTube Stats</SCALE>
+    <FUNCTION>YouTube Stats</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>All Views on Youtube</NAME>
+    <DESCRIPTION>All views on YT for the artis</DESCRIPTION>
+    <PARENT>YouTube Stats</PARENT>
+    <SCALE>All Views on Youtube</SCALE>
+    <FUNCTION>All Views on Youtube</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Hits on YouTube</NAME>
+    <DESCRIPTION>Number of songs with 50.000 or more views on YT</DESCRIPTION>
+    <PARENT>YouTube Stats</PARENT>
+    <SCALE>Hits on YouTube</SCALE>
+    <FUNCTION>Hits on YouTube</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Spotify Stats</NAME>
+    <DESCRIPTION>Number of monthly listeners, highest listened songs</DESCRIPTION>
+    <PARENT>Music platforms</PARENT>
+    <SCALE>Spotify Stats</SCALE>
+    <FUNCTION>Spotify Stats</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Spotify Monthly Listeners</NAME>
+    <DESCRIPTION>Number of monthly listeners</DESCRIPTION>
+    <PARENT>Spotify Stats</PARENT>
+    <SCALE>Spotify Monthly Listeners</SCALE>
+    <FUNCTION>Spotify Monthly Listeners</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Most listened song on Spotify</NAME>
+    <PARENT>Spotify Stats</PARENT>
+    <SCALE>Most listened song on Spotify</SCALE>
+    <FUNCTION>Most listened song on Spotify</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Social networks</NAME>
+    <DESCRIPTION>Popularity on social networks</DESCRIPTION>
+    <PARENT>Online popularity</PARENT>
+    <SCALE>Social networks</SCALE>
+    <FUNCTION>Social networks</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Facebook</NAME>
+    <DESCRIPTION>Number of followers on Facebook</DESCRIPTION>
+    <PARENT>Social networks</PARENT>
+    <SCALE>Facebook</SCALE>
+    <FUNCTION>Facebook</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Instagram</NAME>
+    <DESCRIPTION>Number of followers on Instagram</DESCRIPTION>
+    <PARENT>Social networks</PARENT>
+    <SCALE>Instagram</SCALE>
+    <FUNCTION>Instagram</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Author songs</NAME>
+    <DESCRIPTION>Number of author songs</DESCRIPTION>
+    <PARENT>Choosing a band</PARENT>
+    <SCALE>Author songs</SCALE>
+    <FUNCTION>Author songs</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Number of Albums or EPs</NAME>
+    <DESCRIPTION>Number of Albums or EPs</DESCRIPTION>
+    <PARENT>Author songs</PARENT>
+    <SCALE>Number of Albums or EPs</SCALE>
+    <FUNCTION>Number of Albums or EPs</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Number of Single Releases</NAME>
+    <DESCRIPTION>Number of Single Releases</DESCRIPTION>
+    <PARENT>Author songs</PARENT>
+    <SCALE>Number of Single Releases</SCALE>
+    <FUNCTION>Number of Single Releases</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Concerts</NAME>
+    <DESCRIPTION>Number of Concerts in a year</DESCRIPTION>
+    <PARENT>Choosing a band</PARENT>
+    <SCALE>Concerts</SCALE>
+    <FUNCTION>Concerts</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Number of Concerts in a year in Slovenia</NAME>
+    <PARENT>Concerts</PARENT>
+    <SCALE>Number of Concerts in a year in Slovenia</SCALE>
+    <FUNCTION>Number of Concerts in a year in Slovenia</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Last concert in Novo mesto</NAME>
+    <DESCRIPTION>When did the performer last have a concert in Novo mesto</DESCRIPTION>
+    <PARENT>Concerts</PARENT>
+    <SCALE>Last concert in Novo mesto</SCALE>
+    <FUNCTION>Last concert in Novo mesto</FUNCTION>
+  </ATTRIBUTE>
+  <FUNCTION>
+    <NAME>Choosing a band</NAME>
+    <ATTRLIST>Price;Online popularity;Author songs;Concerts</ATTRLIST>
+    <RULE>
+      <CONDITION>more than 2000;Bad;Not many authored songs;Bad</CONDITION>
+      <RESULT>1</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Bad;Not many authored songs;Okay</CONDITION>
+      <RESULT>2</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Bad;Not many authored songs;Good</CONDITION>
+      <RESULT>2</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Bad;An okay number of authored songs;Bad</CONDITION>
+      <RESULT>1</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Bad;An okay number of authored songs;Okay</CONDITION>
+      <RESULT>2</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Bad;An okay number of authored songs;Good</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Bad;A lot authored songs;Bad</CONDITION>
+      <RESULT>2</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Bad;A lot authored songs;Okay</CONDITION>
+      <RESULT>2</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Bad;A lot authored songs;Good</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Okay;Not many authored songs;Bad</CONDITION>
+      <RESULT>2</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Okay;Not many authored songs;Okay</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Okay;Not many authored songs;Good</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Okay;An okay number of authored songs;Bad</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Okay;An okay number of authored songs;Okay</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Okay;An okay number of authored songs;Good</CONDITION>
+      <RESULT>4</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Okay;A lot authored songs;Bad</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Okay;A lot authored songs;Okay</CONDITION>
+      <RESULT>4</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Okay;A lot authored songs;Good</CONDITION>
+      <RESULT>4</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Good;Not many authored songs;Bad</CONDITION>
+      <RESULT>4</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Good;Not many authored songs;Okay</CONDITION>
+      <RESULT>4</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Good;Not many authored songs;Good</CONDITION>
+      <RESULT>5</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Good;An okay number of authored songs;Bad</CONDITION>
+      <RESULT>4</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Good;An okay number of authored songs;Okay</CONDITION>
+      <RESULT>5</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Good;An okay number of authored songs;Good</CONDITION>
+      <RESULT>5</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Good;A lot authored songs;Bad</CONDITION>
+      <RESULT>5</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Good;A lot authored songs;Okay</CONDITION>
+      <RESULT>5</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Good;A lot authored songs;Good</CONDITION>
+      <RESULT>6</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Best;Not many authored songs;Bad</CONDITION>
+      <RESULT>5</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Best;Not many authored songs;Okay</CONDITION>
+      <RESULT>5</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Best;Not many authored songs;Good</CONDITION>
+      <RESULT>6</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Best;An okay number of authored songs;Bad</CONDITION>
+      <RESULT>5</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Best;An okay number of authored songs;Okay</CONDITION>
+      <RESULT>6</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Best;An okay number of authored songs;Good</CONDITION>
+      <RESULT>7</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Best;A lot authored songs;Bad</CONDITION>
+      <RESULT>6</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Best;A lot authored songs;Okay</CONDITION>
+      <RESULT>6</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 2000;Best;A lot authored songs;Good</CONDITION>
+      <RESULT>7</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Bad;Not many authored songs;Bad</CONDITION>
+      <RESULT>2</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Bad;Not many authored songs;Okay</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Bad;Not many authored songs;Good</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Bad;An okay number of authored songs;Bad</CONDITION>
+      <RESULT>2</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Bad;An okay number of authored songs;Okay</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Bad;An okay number of authored songs;Good</CONDITION>
+      <RESULT>4</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Bad;A lot authored songs;Bad</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Bad;A lot authored songs;Okay</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Bad;A lot authored songs;Good</CONDITION>
+      <RESULT>4</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Okay;Not many authored songs;Bad</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Okay;Not many authored songs;Okay</CONDITION>
+      <RESULT>4</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Okay;Not many authored songs;Good</CONDITION>
+      <RESULT>4</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Okay;An okay number of authored songs;Bad</CONDITION>
+      <RESULT>4</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Okay;An okay number of authored songs;Okay</CONDITION>
+      <RESULT>4</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Okay;An okay number of authored songs;Good</CONDITION>
+      <RESULT>5</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Okay;A lot authored songs;Bad</CONDITION>
+      <RESULT>4</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Okay;A lot authored songs;Okay</CONDITION>
+      <RESULT>5</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Okay;A lot authored songs;Good</CONDITION>
+      <RESULT>5</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Good;Not many authored songs;Bad</CONDITION>
+      <RESULT>5</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Good;Not many authored songs;Okay</CONDITION>
+      <RESULT>5</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Good;Not many authored songs;Good</CONDITION>
+      <RESULT>6</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Good;An okay number of authored songs;Bad</CONDITION>
+      <RESULT>5</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Good;An okay number of authored songs;Okay</CONDITION>
+      <RESULT>6</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Good;An okay number of authored songs;Good</CONDITION>
+      <RESULT>6</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Good;A lot authored songs;Bad</CONDITION>
+      <RESULT>6</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Good;A lot authored songs;Okay</CONDITION>
+      <RESULT>6</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Good;A lot authored songs;Good</CONDITION>
+      <RESULT>7</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Best;Not many authored songs;Bad</CONDITION>
+      <RESULT>6</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Best;Not many authored songs;Okay</CONDITION>
+      <RESULT>7</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Best;Not many authored songs;Good</CONDITION>
+      <RESULT>7</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Best;An okay number of authored songs;Bad</CONDITION>
+      <RESULT>6</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Best;An okay number of authored songs;Okay</CONDITION>
+      <RESULT>7</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Best;An okay number of authored songs;Good</CONDITION>
+      <RESULT>8</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Best;A lot authored songs;Bad</CONDITION>
+      <RESULT>7</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Best;A lot authored songs;Okay</CONDITION>
+      <RESULT>7</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;Best;A lot authored songs;Good</CONDITION>
+      <RESULT>8</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Bad;Not many authored songs;Bad</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Bad;Not many authored songs;Okay</CONDITION>
+      <RESULT>4</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Bad;Not many authored songs;Good</CONDITION>
+      <RESULT>4</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Bad;An okay number of authored songs;Bad</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Bad;An okay number of authored songs;Okay</CONDITION>
+      <RESULT>4</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Bad;An okay number of authored songs;Good</CONDITION>
+      <RESULT>5</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Bad;A lot authored songs;Bad</CONDITION>
+      <RESULT>4</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Bad;A lot authored songs;Okay</CONDITION>
+      <RESULT>5</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Bad;A lot authored songs;Good</CONDITION>
+      <RESULT>5</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Okay;Not many authored songs;Bad</CONDITION>
+      <RESULT>4</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Okay;Not many authored songs;Okay</CONDITION>
+      <RESULT>5</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Okay;Not many authored songs;Good</CONDITION>
+      <RESULT>5</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Okay;An okay number of authored songs;Bad</CONDITION>
+      <RESULT>5</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Okay;An okay number of authored songs;Okay</CONDITION>
+      <RESULT>5</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Okay;An okay number of authored songs;Good</CONDITION>
+      <RESULT>6</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Okay;A lot authored songs;Bad</CONDITION>
+      <RESULT>5</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Okay;A lot authored songs;Okay</CONDITION>
+      <RESULT>6</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Okay;A lot authored songs;Good</CONDITION>
+      <RESULT>6</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Good;Not many authored songs;Bad</CONDITION>
+      <RESULT>6</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Good;Not many authored songs;Okay</CONDITION>
+      <RESULT>6</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Good;Not many authored songs;Good</CONDITION>
+      <RESULT>7</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Good;An okay number of authored songs;Bad</CONDITION>
+      <RESULT>6</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Good;An okay number of authored songs;Okay</CONDITION>
+      <RESULT>7</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Good;An okay number of authored songs;Good</CONDITION>
+      <RESULT>7</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Good;A lot authored songs;Bad</CONDITION>
+      <RESULT>7</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Good;A lot authored songs;Okay</CONDITION>
+      <RESULT>7</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Good;A lot authored songs;Good</CONDITION>
+      <RESULT>8</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Best;Not many authored songs;Bad</CONDITION>
+      <RESULT>7</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Best;Not many authored songs;Okay</CONDITION>
+      <RESULT>7</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Best;Not many authored songs;Good</CONDITION>
+      <RESULT>8</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Best;An okay number of authored songs;Bad</CONDITION>
+      <RESULT>7</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Best;An okay number of authored songs;Okay</CONDITION>
+      <RESULT>8</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Best;An okay number of authored songs;Good</CONDITION>
+      <RESULT>9</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Best;A lot authored songs;Bad</CONDITION>
+      <RESULT>8</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Best;A lot authored songs;Okay</CONDITION>
+      <RESULT>8</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;Best;A lot authored songs;Good</CONDITION>
+      <RESULT>9</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Bad;Not many authored songs;Bad</CONDITION>
+      <RESULT>4</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Bad;Not many authored songs;Okay</CONDITION>
+      <RESULT>5</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Bad;Not many authored songs;Good</CONDITION>
+      <RESULT>5</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Bad;An okay number of authored songs;Bad</CONDITION>
+      <RESULT>4</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Bad;An okay number of authored songs;Okay</CONDITION>
+      <RESULT>5</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Bad;An okay number of authored songs;Good</CONDITION>
+      <RESULT>6</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Bad;A lot authored songs;Bad</CONDITION>
+      <RESULT>5</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Bad;A lot authored songs;Okay</CONDITION>
+      <RESULT>5</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Bad;A lot authored songs;Good</CONDITION>
+      <RESULT>6</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Okay;Not many authored songs;Bad</CONDITION>
+      <RESULT>5</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Okay;Not many authored songs;Okay</CONDITION>
+      <RESULT>6</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Okay;Not many authored songs;Good</CONDITION>
+      <RESULT>6</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Okay;An okay number of authored songs;Bad</CONDITION>
+      <RESULT>6</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Okay;An okay number of authored songs;Okay</CONDITION>
+      <RESULT>6</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Okay;An okay number of authored songs;Good</CONDITION>
+      <RESULT>7</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Okay;A lot authored songs;Bad</CONDITION>
+      <RESULT>6</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Okay;A lot authored songs;Okay</CONDITION>
+      <RESULT>7</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Okay;A lot authored songs;Good</CONDITION>
+      <RESULT>7</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Good;Not many authored songs;Bad</CONDITION>
+      <RESULT>7</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Good;Not many authored songs;Okay</CONDITION>
+      <RESULT>7</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Good;Not many authored songs;Good</CONDITION>
+      <RESULT>8</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Good;An okay number of authored songs;Bad</CONDITION>
+      <RESULT>7</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Good;An okay number of authored songs;Okay</CONDITION>
+      <RESULT>8</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Good;An okay number of authored songs;Good</CONDITION>
+      <RESULT>8</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Good;A lot authored songs;Bad</CONDITION>
+      <RESULT>8</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Good;A lot authored songs;Okay</CONDITION>
+      <RESULT>8</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Good;A lot authored songs;Good</CONDITION>
+      <RESULT>9</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Best;Not many authored songs;Bad</CONDITION>
+      <RESULT>8</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Best;Not many authored songs;Okay</CONDITION>
+      <RESULT>9</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Best;Not many authored songs;Good</CONDITION>
+      <RESULT>9</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Best;An okay number of authored songs;Bad</CONDITION>
+      <RESULT>8</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Best;An okay number of authored songs;Okay</CONDITION>
+      <RESULT>9</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Best;An okay number of authored songs;Good</CONDITION>
+      <RESULT>10</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Best;A lot authored songs;Bad</CONDITION>
+      <RESULT>9</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Best;A lot authored songs;Okay</CONDITION>
+      <RESULT>9</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;Best;A lot authored songs;Good</CONDITION>
+      <RESULT>10</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>Online popularity</NAME>
+    <ATTRLIST>Music platforms;Social networks</ATTRLIST>
+    <RULE>
+      <CONDITION>Bad;Bad</CONDITION>
+      <RESULT>Bad</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Bad;Okay</CONDITION>
+      <RESULT>Bad</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Bad;Good</CONDITION>
+      <RESULT>Okay</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Bad;Best</CONDITION>
+      <RESULT>Okay</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Okay;Bad</CONDITION>
+      <RESULT>Okay</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Okay;Okay</CONDITION>
+      <RESULT>Okay</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Okay;Good</CONDITION>
+      <RESULT>Okay</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Okay;Best</CONDITION>
+      <RESULT>Good</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Good;Bad</CONDITION>
+      <RESULT>Okay</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Good;Okay</CONDITION>
+      <RESULT>Good</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Good;Good</CONDITION>
+      <RESULT>Good</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Good;Best</CONDITION>
+      <RESULT>Good</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Best;Bad</CONDITION>
+      <RESULT>Good</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Best;Okay</CONDITION>
+      <RESULT>Good</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Best;Good</CONDITION>
+      <RESULT>Best</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Best;Best</CONDITION>
+      <RESULT>Best</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>Music platforms</NAME>
+    <ATTRLIST>YouTube Stats;Spotify Stats</ATTRLIST>
+    <RULE>
+      <CONDITION>Bad popularity on YouTube;Bad popularity on Spotify</CONDITION>
+      <RESULT>Bad</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Bad popularity on YouTube;Okay popularity on Spotify</CONDITION>
+      <RESULT>Okay</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Bad popularity on YouTube;Good popularity on Spotify</CONDITION>
+      <RESULT>Good</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Okay popularity on YouTube;Bad popularity on Spotify</CONDITION>
+      <RESULT>Okay</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Okay popularity on YouTube;Okay popularity on Spotify</CONDITION>
+      <RESULT>Good</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Okay popularity on YouTube;Good popularity on Spotify</CONDITION>
+      <RESULT>Good</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Good popularity on YouTube;Bad popularity on Spotify</CONDITION>
+      <RESULT>Good</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Good popularity on YouTube;Okay popularity on Spotify</CONDITION>
+      <RESULT>Good</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Good popularity on YouTube;Good popularity on Spotify</CONDITION>
+      <RESULT>Best</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>YouTube Stats</NAME>
+    <ATTRLIST>All Views on Youtube;Hits on YouTube</ATTRLIST>
+    <RULE>
+      <CONDITION>less than 50.000;0 songs with more than 50.000 views on YT</CONDITION>
+      <RESULT>Bad popularity on YouTube</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 50.000;1-4 songs with more than 50.000 views on YT</CONDITION>
+      <RESULT>Bad popularity on YouTube</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 50.000;5 or more songs with more than 50.000 views on YT</CONDITION>
+      <RESULT>Okay popularity on YouTube</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 150.000;0 songs with more than 50.000 views on YT</CONDITION>
+      <RESULT>Bad popularity on YouTube</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 150.000;1-4 songs with more than 50.000 views on YT</CONDITION>
+      <RESULT>Okay popularity on YouTube</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 150.000;5 or more songs with more than 50.000 views on YT</CONDITION>
+      <RESULT>Okay popularity on YouTube</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 300.000;0 songs with more than 50.000 views on YT</CONDITION>
+      <RESULT>Okay popularity on YouTube</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 300.000;1-4 songs with more than 50.000 views on YT</CONDITION>
+      <RESULT>Okay popularity on YouTube</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 300.000;5 or more songs with more than 50.000 views on YT</CONDITION>
+      <RESULT>Good popularity on YouTube</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 300.000;0 songs with more than 50.000 views on YT</CONDITION>
+      <RESULT>Okay popularity on YouTube</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 300.000;1-4 songs with more than 50.000 views on YT</CONDITION>
+      <RESULT>Good popularity on YouTube</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 300.000;5 or more songs with more than 50.000 views on YT</CONDITION>
+      <RESULT>Good popularity on YouTube</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>Spotify Stats</NAME>
+    <ATTRLIST>Spotify Monthly Listeners;Most listened song on Spotify</ATTRLIST>
+    <RULE>
+      <CONDITION>less than 1000;less than 50.000 listens</CONDITION>
+      <RESULT>Bad popularity on Spotify</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;less than 100.000 listens</CONDITION>
+      <RESULT>Bad popularity on Spotify</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;more than 100.000 listens</CONDITION>
+      <RESULT>Bad popularity on Spotify</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;less than 50.000 listens</CONDITION>
+      <RESULT>Bad popularity on Spotify</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;less than 100.000 listens</CONDITION>
+      <RESULT>Okay popularity on Spotify</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;more than 100.000 listens</CONDITION>
+      <RESULT>Okay popularity on Spotify</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 3500;less than 50.000 listens</CONDITION>
+      <RESULT>Okay popularity on Spotify</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 3500;less than 100.000 listens</CONDITION>
+      <RESULT>Okay popularity on Spotify</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 3500;more than 100.000 listens</CONDITION>
+      <RESULT>Good popularity on Spotify</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 3500;less than 50.000 listens</CONDITION>
+      <RESULT>Okay popularity on Spotify</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 3500;less than 100.000 listens</CONDITION>
+      <RESULT>Good popularity on Spotify</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 3500;more than 100.000 listens</CONDITION>
+      <RESULT>Good popularity on Spotify</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>Social networks</NAME>
+    <ATTRLIST>Facebook;Instagram</ATTRLIST>
+    <RULE>
+      <CONDITION>less than 1000;less than 1.500</CONDITION>
+      <RESULT>Bad</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;less than 3.000</CONDITION>
+      <RESULT>Okay</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1000;more than 3.000</CONDITION>
+      <RESULT>Good</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;less than 1.500</CONDITION>
+      <RESULT>Okay</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;less than 3.000</CONDITION>
+      <RESULT>Good</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 1500;more than 3.000</CONDITION>
+      <RESULT>Good</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;less than 1.500</CONDITION>
+      <RESULT>Good</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;less than 3.000</CONDITION>
+      <RESULT>Good</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 2000;more than 3.000</CONDITION>
+      <RESULT>Best</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>Author songs</NAME>
+    <ATTRLIST>Number of Albums or EPs;Number of Single Releases</ATTRLIST>
+    <RULE>
+      <CONDITION>0 albums or EPs;3 or less single releases</CONDITION>
+      <RESULT>Not many authored songs</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>0 albums or EPs;5 or less single releases</CONDITION>
+      <RESULT>Not many authored songs</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>0 albums or EPs;6 or more single releases</CONDITION>
+      <RESULT>An okay number of authored songs</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>1 album or EP;3 or less single releases</CONDITION>
+      <RESULT>An okay number of authored songs</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>1 album or EP;5 or less single releases</CONDITION>
+      <RESULT>An okay number of authored songs</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>1 album or EP;6 or more single releases</CONDITION>
+      <RESULT>An okay number of authored songs</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>2 or more albums or EPs;3 or less single releases</CONDITION>
+      <RESULT>An okay number of authored songs</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>2 or more albums or EPs;5 or less single releases</CONDITION>
+      <RESULT>A lot authored songs</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>2 or more albums or EPs;6 or more single releases</CONDITION>
+      <RESULT>A lot authored songs</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>Concerts</NAME>
+    <ATTRLIST>Number of Concerts in a year in Slovenia;Last concert in Novo mesto</ATTRLIST>
+    <RULE>
+      <CONDITION>less than 5 concerts;1 year ago</CONDITION>
+      <RESULT>Bad</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 5 concerts;2 years ago</CONDITION>
+      <RESULT>Bad</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 5 concerts;Never</CONDITION>
+      <RESULT>Okay</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 10 concerts;1 year ago</CONDITION>
+      <RESULT>Bad</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 10 concerts;2 years ago</CONDITION>
+      <RESULT>Okay</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>less than 10 concerts;Never</CONDITION>
+      <RESULT>Okay</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 10 concerts;1 year ago</CONDITION>
+      <RESULT>Bad</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 10 concerts;2 years ago</CONDITION>
+      <RESULT>Okay</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>more than 10 concerts;Never</CONDITION>
+      <RESULT>Good</RESULT>
+    </RULE>
+  </FUNCTION>
+  <OPTION>
+    <NAME>Jet Black Diamonds</NAME>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Price</ATTRIBUTE>
+      <VALUE>more than 2000</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>All Views on Youtube</ATTRIBUTE>
+      <VALUE>more than 300.000</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Hits on YouTube</ATTRIBUTE>
+      <VALUE>1-4 songs with more than 50.000 views on YT</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Spotify Monthly Listeners</ATTRIBUTE>
+      <VALUE>more than 3500</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Most listened song on Spotify</ATTRIBUTE>
+      <VALUE>less than 100.000 listens</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Facebook</ATTRIBUTE>
+      <VALUE>less than 1000</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Instagram</ATTRIBUTE>
+      <VALUE>less than 3.000</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Number of Albums or EPs</ATTRIBUTE>
+      <VALUE>1 album or EP</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Number of Single Releases</ATTRIBUTE>
+      <VALUE>3 or less single releases</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Number of Concerts in a year in Slovenia</ATTRIBUTE>
+      <VALUE>more than 10 concerts</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Last concert in Novo mesto</ATTRIBUTE>
+      <VALUE>Never</VALUE>
+    </OPTIONVALUE>
+  </OPTION>
+  <OPTION>
+    <NAME>Kokosy</NAME>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Price</ATTRIBUTE>
+      <VALUE>less than 1500</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>All Views on Youtube</ATTRIBUTE>
+      <VALUE>more than 300.000</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Hits on YouTube</ATTRIBUTE>
+      <VALUE>1-4 songs with more than 50.000 views on YT</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Spotify Monthly Listeners</ATTRIBUTE>
+      <VALUE>more than 3500</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Most listened song on Spotify</ATTRIBUTE>
+      <VALUE>more than 100.000 listens</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Facebook</ATTRIBUTE>
+      <VALUE>less than 2000</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Instagram</ATTRIBUTE>
+      <VALUE>more than 3.000</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Number of Albums or EPs</ATTRIBUTE>
+      <VALUE>1 album or EP</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Number of Single Releases</ATTRIBUTE>
+      <VALUE>5 or less single releases</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Number of Concerts in a year in Slovenia</ATTRIBUTE>
+      <VALUE>more than 10 concerts</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Last concert in Novo mesto</ATTRIBUTE>
+      <VALUE>Never</VALUE>
+    </OPTIONVALUE>
+  </OPTION>
+  <OPTION>
+    <NAME>Plateau</NAME>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Price</ATTRIBUTE>
+      <VALUE>less than 1000</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>All Views on Youtube</ATTRIBUTE>
+      <VALUE>less than 50.000</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Hits on YouTube</ATTRIBUTE>
+      <VALUE>0 songs with more than 50.000 views on YT</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Spotify Monthly Listeners</ATTRIBUTE>
+      <VALUE>less than 1000</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Most listened song on Spotify</ATTRIBUTE>
+      <VALUE>less than 50.000 listens</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Facebook</ATTRIBUTE>
+      <VALUE>less than 1000</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Instagram</ATTRIBUTE>
+      <VALUE>less than 1.500</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Number of Albums or EPs</ATTRIBUTE>
+      <VALUE>1 album or EP</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Number of Single Releases</ATTRIBUTE>
+      <VALUE>5 or less single releases</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Number of Concerts in a year in Slovenia</ATTRIBUTE>
+      <VALUE>less than 10 concerts</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Last concert in Novo mesto</ATTRIBUTE>
+      <VALUE>1 year ago</VALUE>
+    </OPTIONVALUE>
+  </OPTION>
+  <OPTION>
+    <NAME>Regen</NAME>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Price</ATTRIBUTE>
+      <VALUE>less than 1500</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>All Views on Youtube</ATTRIBUTE>
+      <VALUE>less than 150.000</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Hits on YouTube</ATTRIBUTE>
+      <VALUE>0 songs with more than 50.000 views on YT</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Spotify Monthly Listeners</ATTRIBUTE>
+      <VALUE>less than 1000</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Most listened song on Spotify</ATTRIBUTE>
+      <VALUE>less than 50.000 listens</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Facebook</ATTRIBUTE>
+      <VALUE>less than 1000</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Instagram</ATTRIBUTE>
+      <VALUE>less than 1.500</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Number of Albums or EPs</ATTRIBUTE>
+      <VALUE>0 albums or EPs</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Number of Single Releases</ATTRIBUTE>
+      <VALUE>3 or less single releases</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Number of Concerts in a year in Slovenia</ATTRIBUTE>
+      <VALUE>less than 5 concerts</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Last concert in Novo mesto</ATTRIBUTE>
+      <VALUE>Never</VALUE>
+    </OPTIONVALUE>
+  </OPTION>
+</MODEL>
